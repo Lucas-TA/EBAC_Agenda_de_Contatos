@@ -13,6 +13,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2em;
+    background-image: linear-gradient(140deg, blue 5%, white 20%, white 90%, blue 100%);
     background-color: #fff;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
     border-radius: 8px;
