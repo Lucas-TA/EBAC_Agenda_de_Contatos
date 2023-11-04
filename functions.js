@@ -36,6 +36,10 @@ function addContact() {
     const contactNumber = inputTel.value
 
     contacts.push({ nome: contactName, numero: contactNumber });
+
+    if (contacts.length === 1) { //checar se é o primeiro contato adicionado
+        contactContainer.innerHTML = '';
+    }
     
     const index = contacts.length - 1;
 
